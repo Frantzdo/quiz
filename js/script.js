@@ -9,6 +9,13 @@ $(document).ready(function() {
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
         var totalScore;
+        
+        function congrats (q1Result){
+            return q1Result;
+        }
+        
+        var yes = q1Result;
+        
     });
 
 });
